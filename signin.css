@@ -1,0 +1,198 @@
+body{
+    margin: 2em auto;
+    padding: 0;
+    width: 90%;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.navi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navi a{
+display: flex;
+justify-content: flex-end;
+font-weight: 700;
+letter-spacing: 2px;
+text-decoration: none;
+}
+.fa-sharp{
+    margin-top: .1em;
+    margin-right: .2em;
+}
+.main h2{
+    font-size: 1.5em;
+    width: 90%;
+}
+input[type="text"]{
+    width: 90%;
+    padding: .8em;
+    background-color: rgb(240, 229, 215);
+    border: none;
+    border-radius: 10px;
+    font-size: .9em;
+    letter-spacing: 2px;
+}
+
+input[type="password"]{
+    width: 90%;
+    padding: .8em;
+    background-color: rgb(240, 229, 215);
+    border: none;
+    border-radius: 10px;
+    font-size: .9em;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+}
+.input h5{
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: .8em;
+    margin-left: .5em;
+}
+.signin a:nth-child(3){
+    padding: .7em 8.5em;
+    margin-left: .3em;
+    background-color: bisque;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.signin p{
+    margin: 2em .5em;
+    font-size: .9em;
+    letter-spacing: 0;
+}
+
+.experience {
+    background-color: rgb(240, 229, 215);
+
+}
+.experience h2{
+    padding: 1em;
+    font-size: 1.2em;
+}
+.experience img{
+    position: relative;
+    margin-left: 1em ;
+    width: 20%;
+    margin-bottom: 2em;
+
+}
+.name{
+    margin-top: -2em;
+}
+.name h5{
+   margin: 3.5em 0 0 1em;
+}
+.name p{
+    margin: .5em 0 2em 1em;
+    font-size: .8em;
+}
+.hero{
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .main h2{
+        font-size: 1.8em;
+    }
+
+    input[type="text"]{
+        width: 45%;
+    }
+    input[type="password"]{
+        width: 45%;
+    }
+
+    .signin a:nth-child(3){
+        padding: .7em 3em;
+        margin: 1em 3em;
+    }
+    .experience img{
+        width: 10%;
+        margin-top: .5em;
+    }
+    .experience h2{
+        margin: 1em;
+        font-size: 1.2em;
+    }
+    .main{
+        overflow-x: hidden;
+    }
+    
+}
+    @media (min-width: 768px) {
+        input[type="text"]{ 
+            width: 60%;
+        }
+        input[type="password"]{ 
+            width: 60%;
+        }
+        .signin a:nth-child(3){
+            padding: .7em 5em;
+            margin: 1em 6em;
+        }
+        .signin p{
+            margin-left: 5em;
+        }
+        .experience img{
+            width: 10%;
+            margin-top: 0em;
+        }
+    }
+
+    @media (min-width: 810px) {
+        .signin a:nth-child(3){
+            padding: .7em 5em;
+            margin: 1em 7em;
+        }
+        .signin p{
+            margin-left: 6em;
+        }
+
+    }
+    @media (min-width: 1024px) {
+        .navi{
+            width: 90%;
+            margin: 3em auto;
+
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 90%;
+            margin: auto;
+            overflow-x: hidden;
+        }
+        .experience h2{
+            padding: 7em 1em;
+            font-size: 1em;
+        }
+        .hero{
+            margin-left: 2em;
+            margin-top: -7em;
+        }
+        .experience img{
+            width: 13%;
+            margin-top: .5em;
+        }
+        .name{
+            margin-top: -1.8em;
+        }
+        .signin a:nth-child(3){
+            padding: .7em 5em;
+            margin: 1em 2em;
+        }
+        .signin p{
+            margin-left: 0em;
+        }
+
+    }

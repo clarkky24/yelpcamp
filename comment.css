@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    margin: 3% 5%;
+}
+.navi-desktop{
+    display: none;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.burger{
+    background-color: rgb(208, 215, 221);
+    padding: .1em;
+}
+.input h2{
+    font-size: 2.5em;
+    margin: 2em 0 .8em 0;
+}
+.int h4{
+    font-weight: 500;
+    color: #444;
+    margin: 0 0 .5em .5em;
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 239, 245);
+    width: 93%;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    padding: 1em;
+}
+.input a{
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px
+}
+footer{
+    margin: 3em 0;
+}
+
+@media (min-width: 600px) {
+    .main{
+        margin: 0 10%;
+    }
+}
+
+@media (min-width: 810px) {
+    .main{
+        margin: 0 15%;
+    }
+    .input h2{
+        font-size: 3em;
+    }
+    .int h4{
+        font-size: 1.2em;
+    }
+    footer{
+        margin: 5em 0 2em 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main{
+        margin: 0 20%;
+    }
+    .navi{
+        display: none;
+    }
+    .navi-desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logos{
+        display: flex;
+    }
+
+    #home{
+        align-self: center;
+        text-decoration: none;
+        margin:  0 3em;
+        color: black;
+        letter-spacing: 2px;
+    }
+    .burgor{
+        display: flex;
+        
+    }
+    #name{
+        text-decoration: none;
+        margin: 0 1em;
+        align-self: center;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    #logout{
+        text-decoration: none;
+        margin: 0 1em;
+        align-self: center;
+        color: black;
+        letter-spacing: 1px;
+    }
+    .input a:hover{
+        background-color: rgb(195, 220, 241);
+        color: black;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .main{
+        margin: 0 25%;
+    }
+    textarea{
+        width: 95%;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .main{
+        margin: 0 30%;
+    }
+    textarea{
+        width: 94%;
+    }
+    
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    margin: 3% 5%;
+}
+.navi-desktop{
+    display: none;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    background-color: rgb(208, 215, 221);
+    padding: .1em;
+}
+.burger img{
+    margin-top: .2em;
+}
+
+.input h2{
+    font-size: 2em;
+    width: 60%;
+    letter-spacing: 2px;
+
+}
+
+input[type="text"]{
+    width: 98%;
+    padding: .8em 0;
+    border: none;
+    background-color: c;
+    border-radius: 10px;
+    padding-left: 1em;
+    letter-spacing: 2px;
+}
+
+textarea{
+    width: 98%;
+    padding: .8em 0;
+    border: none;
+    background-color: rgb(239, 240, 241);
+    border-radius: 10px;
+    padding-left: 1em;
+}
+
+.name-input h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: .5em;
+    margin-bottom: 0.3em;
+}
+
+.input a{
+    text-decoration: none;
+    display: block;
+    margin: 1.5em auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: .8em 0;
+    font-weight: 600;
+    font-size: .9em;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.input a:hover{
+    background-color: rgb(239, 240, 241);
+    color: black;
+}
+footer img{
+    margin: 2em 0;
+}
+
+@media (min-width: 600px) {
+    .main{
+        margin: 3% 10%;
+    }
+    
+}
+
+@media (min-width: 810px) {
+    .main{
+        margin: 3% 15%;
+    }
+    .input h2{
+        font-size: 2.5em;
+        width: 100%;
+    }
+    .name-input h4{
+        font-size: 1.1em;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .main{
+        margin: 5% 20%;
+    }
+    .navi{
+        display: none;
+    }
+    .navi-desktop{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .logo{
+        display: flex;
+    }
+
+    .logo img{
+        margin-right: 2em;
+    }
+    .burgor{
+        display: flex;
+    }
+    #home{
+        text-decoration: none;
+        color: black;
+        display: inline;
+        align-self: center;
+        letter-spacing: 1px;
+        margin-bottom: -.4em;
+        
+
+    }
+
+    #name {
+        text-decoration: none;
+        color: black;
+        letter-spacing: 1px;
+        margin-right: 1em ;
+        margin-bottom: -.4em;
+        font-weight: 600;
+        align-self: center;
+        
+    }
+    #logout {
+        text-decoration: none;
+        color: black;
+        letter-spacing: 1px;
+        align-self: center;
+        margin-bottom: -.4em;
+        align-self: center;
+    }
+}
+
+@media (min-width:1200px) {
+    .input h2{
+        font-size: 3em;
+    }
+    .input h4{
+        font-size: 1.2em;
+    }
+    
+}
+
+@media (min-width:1440px) {
+    .main{
+        margin: 5% 25%;
+    }
+    
+}
